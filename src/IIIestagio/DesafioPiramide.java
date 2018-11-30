@@ -30,7 +30,7 @@ public class DesafioPiramide {
 			 
 			 numeros = new ArrayList<>();
 			 while (numeros.size() != tamanhoInterno) {
-				 numeroRandom = new Integer((int) (1 + (Math.random() * (tamanhoImpressao - 1)))); 
+				 numeroRandom = new Integer((int) (1 + (Math.random() * (tamanhoRandon - 1)))); 
 				 numeros.add(numeroRandom);
 			 }
 			 tamanhoInterno--;
